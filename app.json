@@ -1,8 +1,8 @@
 {
-    "name": "KyyMusic",
+    "name": "Music-Virtual",
     "description": "Music allow you to stream music trought the telegram voice chat feature.",
     "keywords": ["music", "voice chat", "telegram"],
-    "repository": "https://github.com/muhamadrizky16/KyyMusic",
+    "repository": "https://github.com/TeamVirtual-Skyz/Music",
     "stack": "container",
     "env": {
         "SESSION_NAME": {
@@ -47,12 +47,12 @@
         "GROUP": {
             "description": "Isi dengan username group tanpa @",
             "required": true,
-            "value": "NastySupportt"
+            "value": "Grup_Cari_Teman_Virtual"
         },
          "CHANNEL": {
             "description": "Isi dengan username channel tanpa @",
             "required": true,
-            "value": "NastyProject"
+            "value": "PrivateChattingan"
         },
         "SUDO_USERS": {
             "description": "isi dengan user id yang dapat mengakses semua fungsi di bot anda (dipisahkan dengan spasi).",
@@ -71,7 +71,7 @@
         },
         "UPSTREAM_REPO": {
             "description": "Jika Anda tidak tahu ini, Biarkan apa adanya ato di /skip",
-            "value": "https://github.com/muhammadrizky16/KyyMusic",
+            "value": "https://github.com/TeamVirtual-Skyz/Music",
             "required": true
         },
         "UPSTREAM_BRANCH": {
