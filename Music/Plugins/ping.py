@@ -1,4 +1,4 @@
-import time
+Tjimport time
 from datetime import datetime
 
 import psutil
@@ -29,5 +29,5 @@ async def ping(_, message):
     end = datetime.now()
     resp = (end - start).microseconds / 1000
     await response.edit(
-        f"**Pong !!**\n`💫{resp} ms`\n\n<b><u>Statistik Sistem Musik:</u></b>{uptime}"
+        f"**Spong!!**\n`🧸 {resp} ms`\n\n<b><u>Music Virtual:</u></b>{uptime}"
     )
